@@ -1,3 +1,7 @@
+## DSAVER
+
+This is a project based on codewithantonios duolingo tutorial, My goal is to adapt the gamified learning to be helpful for people studying datastructures and algorithms.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
