@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 
-export default function Home() {
+export default function Components() {
   return (
-    <div className="">
-      <p className="text-white font-bold">Hello</p>
+    <div className="flex flex-col max-w-48 m-10">
+      <h1 className="text-xl mb-5 text-white font-bold">Components</h1>
       <Button variant="primary">Default</Button>
       <Button>Primary</Button>
       <Button variant="primaryOutline">Primary Outline</Button>
