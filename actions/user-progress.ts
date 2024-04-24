@@ -24,6 +24,7 @@ export const upsertUserProgress = async (courseId: number) => {
   //if (!course.units.length || !course.units[0].lessons.length) {
   //  throw new Error("Course is empty");
   //}
+  //to be used later 
 
   const existingUserProgress = await getUserProgress();
 
