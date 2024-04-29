@@ -33,7 +33,7 @@ export const Card = ({
           </div>
         )}
       </div>
-      <p>{title}</p>
+      {title.length > 0 && (<p>{title}</p>)}
       <div></div>
     </div>
   );

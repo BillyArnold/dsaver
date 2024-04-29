@@ -3,6 +3,14 @@ import { render, screen } from "@testing-library/react";
 import { Header } from "./header";
 import { ClerkProvider } from "@clerk/nextjs";
 
+jest.mock("next/navigation", () => ({
+  useRouter() {
+    return {
+      prefetch: () => null
+    };
+  }
+}));
+
 describe("Header", () => {
   it("renders the heading", () => {
     render(
